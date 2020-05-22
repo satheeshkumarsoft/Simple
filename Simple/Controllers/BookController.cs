@@ -10,9 +10,11 @@ namespace Simple.Controllers
     public class BookController : ApiController
     {
         // GET: api/Book
-        public IEnumerable<string> Get()
+        public List<Agency> Get()
         {
-            return new string[] { "value1", "value2","value3" };
+            sathstudentEntities obj = new sathstudentEntities();
+            var a = obj.Agencies.ToList();
+            return a;
         }
 
         // GET: api/Book/5
