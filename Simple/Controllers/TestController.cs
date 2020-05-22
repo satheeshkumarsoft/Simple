@@ -9,5 +9,9 @@ namespace Simple.Controllers
 {
     public class TestController : ApiController
     {
+        public void Test()
+        {
+
+        }
     }
 }
