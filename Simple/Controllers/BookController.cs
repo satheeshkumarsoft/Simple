@@ -12,7 +12,7 @@ namespace Simple.Controllers
         // GET: api/Book
         public IEnumerable<string> Get()
         {
-            return new string[] { "value1", "value2" };
+            return new string[] { "value1", "value2","value3" };
         }
 
         // GET: api/Book/5
